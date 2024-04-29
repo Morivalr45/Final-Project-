@@ -1,0 +1,30 @@
+/* InsurancePlans.css */
+.insurance-plans {
+    margin-top: 20px;
+  }
+  
+  .insurance-plans h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .insurance-plans ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .insurance-plans li {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .insurance-plans li.eligible {
+    background-color: #c8e6c9; /* Light green background for eligible plans */
+  }
+  
+  .insurance-plans li.not-eligible {
+    background-color: #ffcdd2; /* Light red background for not eligible plans */
+  }
+  
